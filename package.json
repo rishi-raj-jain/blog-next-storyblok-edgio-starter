@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@heroicons/react": "^1.0.6",
-    "@layer0/cli": "^4.15.7",
+    "@layer0/cli": "^4.17.0",
     "@layer0/core": "^4.15.7",
     "@layer0/devtools": "^4.15.7",
     "@layer0/next": "^4.15.7",
