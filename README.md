@@ -1,3 +1,7 @@
+# Build Your Personal Blog With Storyblok, Next.js, and Layer0
+
+Guide: https://www.storyblok.com/tp/blog-next-layer0
+
 ## Demo
 
 https://rishi-raj-jain-blog-next-storyblok-layer0-starter-default.layer0-limelight.link
