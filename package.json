@@ -1,5 +1,5 @@
 {
-  "name": "layer0-nextjs-example",
+  "name": "blog-next-storyblok-layer0-starter",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -22,10 +22,8 @@
     "@layer0/next": "^4.15.7",
     "@layer0/prefetch": "^4.15.7",
     "@layer0/react": "^4.15.7",
-    "@layer0/rum": "^3.1.0",
     "autoprefixer": "^10.4.7",
     "classnames": "^2.3.1",
-    "node-fetch": "^3.2.8",
     "postcss": "^8.4.13",
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.11",
