@@ -1,5 +1,5 @@
-.next
-.layer0
-node_modules
-.swc
-dist
+/.next
+/.layer0
+/node_modules
+/.swc
+/dist
