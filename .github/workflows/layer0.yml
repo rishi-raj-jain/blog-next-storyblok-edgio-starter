@@ -1,11 +1,11 @@
-name: Deploy to Layer0
+name: Deploy to Edgio
 
 on:
   workflow_dispatch:
   push:
 
 jobs:
-  deploy-to-layer0:
+  deploy-to-edgio:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -14,6 +14,6 @@ jobs:
           node-version: 14
           registry-url: https://npm-proxy.fury.io/moovweb/
       - run: npm i
-      - run: npm run layer0:deploy -- --token=$LAYER0_DEPLOY_TOKEN
+      - run: npm run edgio:deploy -- --token=$EDGIO_DEPLOY_TOKEN
         env:
-          LAYER0_DEPLOY_TOKEN: ${{secrets.LAYER0_DEPLOY_TOKEN}}
+          EDGIO_DEPLOY_TOKEN: ${{secrets.LAYER0_DEPLOY_TOKEN}}

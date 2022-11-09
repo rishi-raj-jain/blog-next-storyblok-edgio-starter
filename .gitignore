@@ -33,8 +33,9 @@ yarn-error.log*
 # vercel
 .vercel
 
-# Layer0 generated build directory
+# Edgio generated build directory
 .layer0
-.swc
+.edgio 
 
 dist
+.swc

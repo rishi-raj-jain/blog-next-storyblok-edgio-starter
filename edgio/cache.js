@@ -13,7 +13,7 @@ export const ASSET_CACHE_HANDLER = ({ removeUpstreamResponseHeader, cache }) => 
     browser: {
       // Don't save the response in the browser
       maxAgeSeconds: 0,
-      // Save the response in the browser via Layer0 service worker
+      // Save the response in the browser via Edgio service worker
       serviceWorkerSeconds: 60 * 60 * 24,
     },
   })
@@ -28,7 +28,7 @@ export const NEXT_CACHE_HANDLER = ({ removeUpstreamResponseHeader, cache }) => {
     browser: {
       // Don't save the response in the browser
       maxAgeSeconds: 0,
-      // Save the response in the browser via Layer0 service worker
+      // Save the response in the browser via Edgio service worker
       serviceWorkerSeconds: 1,
     },
     edge: {
@@ -37,7 +37,7 @@ export const NEXT_CACHE_HANDLER = ({ removeUpstreamResponseHeader, cache }) => {
       // Keep revalidating data per day, i.e. looking for content changes from the Next.js app
       // and update the response in edge
       // More on: https://web.dev/stale-while-revalidate
-      // and https://docs.layer0.co/guides/caching#achieving-100-cache-hit-rates
+      // and https://docs.edg.io/guides/caching#achieving-100-cache-hit-rates
       staleWhileRevalidateSeconds: 60 * 60 * 24,
     },
   })

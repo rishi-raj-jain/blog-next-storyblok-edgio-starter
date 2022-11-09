@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import { Prefetch } from '@layer0/react'
+import { Prefetch } from '@edgio/react'
 import { getAllPostsForHome } from '@/lib/api'
-import { createNextDataURL } from '@layer0/next/client'
+import { createNextDataURL } from '@edgio/next/client'
 
 const Page = ({ allPosts }) => {
   return allPosts.map((i) => {

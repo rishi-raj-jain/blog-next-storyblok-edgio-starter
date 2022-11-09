@@ -2,10 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*"],
       "@/lib/*": ["lib/*"],
+      "@/edgio/*": ["edgio/*"],
       "@/styles/*": ["styles/*"],
-      "@/layer0/*": ["layer0/*"]
+      "@/components/*": ["components/*"]
     }
   }
 }

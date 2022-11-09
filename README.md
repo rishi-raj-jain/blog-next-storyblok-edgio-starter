@@ -1,4 +1,4 @@
-# Build Your Personal Blog With Storyblok, Next.js, and Layer0
+# Build Your Personal Blog With Storyblok, Next.js, and Edgio
 
 Guide: https://www.storyblok.com/tp/blog-next-layer0
 
@@ -8,7 +8,7 @@ https://rishi-raj-jain-blog-next-storyblok-layer0-starter-default.layer0-limelig
 
 ## Try It Now
 
-[![Deploy with Layer0](https://docs.layer0.co/button.svg)](https://app.layer0.co/deploy?repo=https://github.com/rishi-raj-jain/blog-next-storyblok-layer0-starter)
+[![Deploy with Edgio](https://docs.edg.io/button.svg)](https://app.layer0.co/deploy?repo=https://github.com/rishi-raj-jain/blog-next-storyblok-layer0-starter)
 
 ## Getting Started
 
@@ -21,35 +21,35 @@ Use `git clone https://github.com/rishi-raj-jain/blog-next-storyblok-layer0-star
 On the command line, in the project root directory, run the following command:
 
 ```bash
-npm i
+npm install
 ```
 
-### Run the Next.js app locally on Layer0
+### Run the Next.js app locally on Edgio
 
 Run the Next.js app with the command:
 
 ```bash
-0 dev
+npm run edgio:dev
 ```
 
 Load the site: http://127.0.0.1:3000
 
-### Testing production build locally with Layer0
+### Testing production build locally with Edgio
 
 You can do a production build of your app and test it locally using:
 
 ```bash
-0 build && 0 run --production
+npm run edgio:build && npm run edgio:production
 ```
 
-Setting --production runs your app exactly as it will be uploaded to the Layer0 cloud using serverless-offline.
+Setting --production runs your app exactly as it will be uploaded to the Edgio cloud using serverless-offline.
 
-## Deploying to Layer0
+## Deploying to Edgio
 
-Deploying requires an account on Layer0. [Sign up here for free](https://app.layer0.co/signup). Once you have an account, you can deploy to Layer0 by running the following in the root folder of your project:
+Deploying requires an account on Edgio. [Sign up here for free](https://app.layer0.co/signup). Once you have an account, you can deploy to Edgio by running the following in the root folder of your project:
 
 ```bash
-0 deploy
+npm run edgio:deploy
 ```
 
-See [deploying](https://docs.layer0.co/guides/deploying) for more information.
+See [deploying](https://docs.edg.io/guides/deploying) for more information.

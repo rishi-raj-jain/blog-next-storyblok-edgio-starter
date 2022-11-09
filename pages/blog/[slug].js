@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Prefetch } from '@layer0/react'
-import { createNextDataURL } from '@layer0/next/client'
+import { Prefetch } from '@edgio/react'
+import { createNextDataURL } from '@edgio/next/client'
 import { render } from 'storyblok-rich-text-react-renderer'
 import { getAllPostsWithSlug, getNextBlog, getPost, getPrevBlog } from '@/lib/api'
 
