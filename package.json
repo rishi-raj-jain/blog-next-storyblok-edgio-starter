@@ -18,7 +18,7 @@
   "devDependencies": {
     "@edgio/cli": "^5.0.3",
     "@edgio/core": "^5.0.3",
-    "@edgio/devtools": "^5.0.3",
+    "@edgio/devtools": "^5.0.5",
     "@edgio/next": "^5.0.3",
     "@edgio/prefetch": "^5.0.3",
     "@edgio/react": "^5.0.3",
