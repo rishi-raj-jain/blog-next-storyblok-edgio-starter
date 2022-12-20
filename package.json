@@ -20,7 +20,7 @@
     "@edgio/core": "^5.0.3",
     "@edgio/devtools": "^5.0.3",
     "@edgio/next": "^5.0.3",
-    "@edgio/prefetch": "^5.0.3",
+    "@edgio/prefetch": "^5.1.1",
     "@edgio/react": "^5.0.3",
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "^10.4.7",
