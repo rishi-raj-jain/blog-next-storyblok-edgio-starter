@@ -8,13 +8,13 @@ https://rishi-raj-jain-blog-next-storyblok-layer0-starter-default.layer0-limelig
 
 ## Try It Now
 
-[![Deploy with Edgio](https://docs.edg.io/button.svg)](https://app.layer0.co/deploy?repo=https://github.com/rishi-raj-jain/blog-next-storyblok-layer0-starter)
+[![Deploy with Edgio](https://docs.edg.io/button.svg)](https://app.layer0.co/deploy?repo=https://github.com/rishi-raj-jain/blog-next-storyblok-edgio-starter)
 
 ## Getting Started
 
 ### Clone This Repo
 
-Use `git clone https://github.com/rishi-raj-jain/blog-next-storyblok-layer0-starter.git` to get the files within this repository onto your local machine.
+Use `git clone https://github.com/rishi-raj-jain/blog-next-storyblok-edgio-starter.git` to get the files within this repository onto your local machine.
 
 ### Install dependencies
 

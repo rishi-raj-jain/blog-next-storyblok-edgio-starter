@@ -34,7 +34,6 @@ yarn-error.log*
 .vercel
 
 # Edgio generated build directory
-.layer0
 .edgio 
 
 dist

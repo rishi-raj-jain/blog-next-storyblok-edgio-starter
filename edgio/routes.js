@@ -1,12 +1,7 @@
 import { Router } from '@edgio/core/router'
 import { ASSET_CACHE_HANDLER, NEXT_CACHE_HANDLER } from './cache'
 
-const router = new Router()
-  .noIndexPermalink()
-  // Serve the old Edgio predefined routes by the latest prefix
-  .match('/__(xdn|layer0)__/:path*', ({ redirect }) => {
-    redirect('/__edgio__/:path*', 301)
-  })
+export default new Router({ indexPermalink: false })
   // Serve the compiled service worker with Edgio prefetcher working
   .match('/service-worker.js', ({ serviceWorker }) => {
     serviceWorker('dist/service-worker.js')
@@ -23,5 +18,3 @@ const router = new Router()
   .fallback(({ renderWithApp }) => {
     renderWithApp()
   })
-
-export default router

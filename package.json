@@ -1,5 +1,5 @@
 {
-  "name": "blog-next-storyblok-layer0-starter",
+  "name": "blog-next-storyblok-edgio-starter",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -16,12 +16,12 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@edgio/cli": "^5.0.3",
-    "@edgio/core": "^5.0.3",
-    "@edgio/devtools": "^5.0.3",
-    "@edgio/next": "^5.0.3",
-    "@edgio/prefetch": "^5.0.3",
-    "@edgio/react": "^5.0.3",
+    "@edgio/cli": "latest",
+    "@edgio/core": "latest",
+    "@edgio/devtools": "latest",
+    "@edgio/next": "latest",
+    "@edgio/prefetch": "latest",
+    "@edgio/react": "latest",
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "^10.4.7",
     "classnames": "^2.3.1",

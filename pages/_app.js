@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+import '@/styles/app.css'
 import { useEffect } from 'react'
 import { install } from '@edgio/prefetch/window'
 import installDevtools from '@edgio/devtools/install'

@@ -1,6 +1,5 @@
-/.next
-/.layer0
-/.edgio
-/node_modules
-/.swc
-/dist
+.next
+.edgio
+node_modules
+.swc
+dist
